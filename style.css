@@ -1,0 +1,130 @@
+body {
+    padding:0;
+    margin: 0;
+    background-image: url(pupin_srbija.png);
+    background-position: center;
+    background-repeat: center;
+    background-attachment: fixed;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#wrapper {
+    width: 960px;
+    margin: 10px auto 20px;
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: grey;
+    border-radius: 7px;
+    background: rgba(132, 132, 45, 45);
+}
+p {
+    text-indent: 10px;
+    
+}
+h2, h3, h4 {
+    font-weight: 400;
+}
+h1 {
+    font-weight: 400;
+    font-size: 2.2em;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 40px;
+}
+header {
+    font-weight: bold;
+    color:rgba(142, 732, 11, 3);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nav {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(142, 732, 11, 3);
+    width: 250px;
+    float: left;
+    border-style: ridge;
+    border-color: black;
+}
+nav a {
+    text-decoration: none;
+}
+main {
+    float: right;
+    width: 670px;
+    padding: 10px;
+    margin-left: 10px;
+}
+#content {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px 0 20px;
+    box-shadow: 2px 2px 4px grey;
+    background: rgba(142, 732, 11, 3)
+    
+  
+}
+#slika img {
+    padding-left: 20px;
+    }
+.strong {
+    font-weight: 700;
+    font-size: 17px;
+}
+.em {
+    font-style: italic;
+}
+main p.em {
+    color: rgb(11, 1, 54);
+    font-weight: 600;
+    width: 450px;
+    margin: 20px auto;
+    padding: 30px 0;
+    text-indent: 20px;
+    text-decoration: underline;
+    }
+#second {
+   float: right;
+    width: 670px;
+}
+hr {
+    border: 1px dashed;
+}
+second h3 {
+    margin-top: 80px;
+    
+
+}
+#second img {
+    display: block;
+    box-shadow: 2px 2px 3px grey;
+    margin: 40px 0;
+}
+h4 {
+    font-size: 1.6em;
+    
+table {
+    clear:both;
+    padding: 30px;
+}
+}
+#table h4 {
+    text-align: center;
+    clear:both;
+    color:  rgb(11, 1, 54);
+    font-weight: lighter;
+}
+table,th,td {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 8px;
+    background: rgba(1532, 832, 832, 1532);
+}
+th {
+    background:rgb(1024, 1024, 1024, 1024);
+}
